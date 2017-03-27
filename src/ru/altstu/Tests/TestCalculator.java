@@ -8,6 +8,12 @@ import org.junit.jupiter.api.Test;
  */
 public class TestCalculator {
 
+    @Test
+    void calcClassCreationTest() {
+        Calculator calculator = new Calculator();
+        Assertions.assertNotNull(calculator);
+    }
+
 
 
 }
