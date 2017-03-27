@@ -7,4 +7,8 @@ public class Calculator {
 
     public Calculator() {}
 
+    public double add(double a, double b) {
+        //todo реализовать метод позднее до конца
+        return 4;
+    }
 }
