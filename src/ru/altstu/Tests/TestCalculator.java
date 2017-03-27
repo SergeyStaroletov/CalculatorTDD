@@ -21,6 +21,11 @@ public class TestCalculator {
         Assertions.assertEquals(4, calculator.add(2, 2));
     }
 
+    @Test
+    void calcAdd2and1Test() {
+        Calculator calculator = new Calculator();
+        Assertions.assertEquals(3, calculator.add(2, 1));
+    }
 
 
 }
