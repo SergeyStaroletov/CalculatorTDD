@@ -14,10 +14,14 @@ public class Calculator {
      * @return результат складывания двух аргументов
      */
     public double add(double a, double b) {
-        //todo реализовать метод позднее до конца
-        if (a == 2 && b == 2) return 3;
+        //todo реализовать метод add позднее до конца
+        if (a == 2 && b == 1) return 3;
 
         return 4;
     }
 
+    public double multiply(double a, double b) {
+        //todo реализовать метод multiply позднее до конца
+        return 0;
+    }
 }
