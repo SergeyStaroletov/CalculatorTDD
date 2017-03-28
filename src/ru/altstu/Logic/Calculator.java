@@ -14,10 +14,7 @@ public class Calculator {
      * @return результат складывания двух аргументов
      */
     public double add(double a, double b) {
-        //todo реализовать метод add позднее до конца
-        if (a == 2 && b == 1) return 3;
-
-        return 4;
+        return a + b;
     }
 
     /**
@@ -27,8 +24,6 @@ public class Calculator {
      * @return результат умножения двух аргументов
      */
     public double multiply(double a, double b) {
-        //todo реализовать метод multiply позднее до конца
-        if (a == 2 &git commit –m “Javadoc for multiply()”& b == 2) return 4;
-        return 0;
+       return a * b;
     }
 }
