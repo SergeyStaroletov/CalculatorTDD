@@ -26,7 +26,11 @@ public class TestCalculator {
         Calculator calculator = new Calculator();
         Assertions.assertEquals(3, calculator.add(2, 1));
     }
-
+    @Test
+    void calcAddAnotherTest() {
+        Calculator calculator = new Calculator();
+        Assertions.assertEquals(-7, calculator.add(10, -17));
+    }
     @Test
     void calcMultToNullTest() {
         Calculator calculator = new Calculator();
@@ -39,4 +43,9 @@ public class TestCalculator {
         Assertions.assertEquals(4, calculator.multiply(2, 2));
     }
 
+    @Test
+    void calcMultAnotherTest() {
+        Calculator calculator = new Calculator();
+        Assertions.assertEquals(50, calculator.multiply(20, 2.5));
+    }
 }
