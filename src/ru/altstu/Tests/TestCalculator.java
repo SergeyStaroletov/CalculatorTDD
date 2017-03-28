@@ -33,5 +33,10 @@ public class TestCalculator {
         Assertions.assertEquals(0, calculator.multiply(2, 0));
     }
 
+    @Test
+    void calcMult2x2Test() {
+        Calculator calculator = new Calculator();
+        Assertions.assertEquals(4, calculator.multiply(2, 2));
+    }
 
 }
